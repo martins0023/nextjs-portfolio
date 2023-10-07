@@ -1,11 +1,11 @@
 'use client';
 
+import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { socials } from '../constants';
 
+import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import Link from 'next/link';
 
 const getyear = new Date().getFullYear();
 const Footer = () => (
@@ -32,8 +32,8 @@ const Footer = () => (
           <span className="font-normal text-[16px] text-white">Contact me</span>
         </button>
         <div
-            className="lg:flex hidden items-center justify-center w-[40px] h-[40px] rounded-full bg-transparent border-[1px] border-white cursor-pointer"
-            onClick={() => window.open("https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579")}
+          className="lg:flex hidden items-center justify-center w-[40px] h-[40px] rounded-full bg-transparent border-[1px] border-white cursor-pointer"
+          onClick={() => window.open('https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579')}
         >
           <img
             src="arrow.svg"
@@ -41,7 +41,6 @@ const Footer = () => (
             className="w-[20%] h-[20%] object-contain "
           />
         </div>
-          
       </div>
 
       <div className="flex flex-col">
@@ -50,11 +49,9 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">Miracle O.A | Software Developer</h4>
           <p className="font-normal text-[14px] text-white opacity-50"> Copyright &copy; {getyear} All rights reserved.
-          <Link
-            href='https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579' 
-            className="lg:hidden font-semibold text-[14px] text-white" >
-              {` `}|{` `}Download Resume
-          </Link>
+            <Link href="https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579" className="lg:hidden font-semibold text-[14px] text-white">
+              | Download Resume
+            </Link>
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
