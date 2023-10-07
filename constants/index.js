@@ -54,14 +54,14 @@ export const insights = [
     title: 'Implementation of CPU Scheduling Algorithm using python',
     subtitle:
         'To understand the composition of a typical operating system, we first consider the complete spectrum of software found within a typical computer system....',
-    insight_link: "https://medium.com/@oladapomiracle/cpu-scheduling-algorithm-demonstration-using-python-67c986537e64",
+    insightLink: "https://medium.com/@oladapomiracle/cpu-scheduling-algorithm-demonstration-using-python-67c986537e64",
   },
   {
     imgUrl: '/mastering.jpg',
     title: 'TIPS TO MASTERING THE ART OF PYTHON',
     subtitle:
         'Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-orie...',
-    insight_link: "https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579",
+    insightLink: "https://medium.com/@oladapomiracle/tips-to-mastering-the-art-of-python-677aff8ac579",
   },
 ];
 
